@@ -2,14 +2,14 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
   title: "Mzukisi's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate developer and linux enthusiast. I will read your Dockerfile and docker-compose.yml before README.md.",
   og: {
     title: "Mzukisi Makaluza Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "MzukisiMakaluza",
   nickname: "Smurphy",
   subTitle:
-    "A passionate developer and linux enthusiast. I will read your Dockerfile and docker-compose.yml before README.md.",
+    "A passionate developer and linux enthusiast. I will read your Dockerfile and docker-compose.yml before your README.md.",
   resumeLink:
     "https://drive.google.com/file/d/1o5VDU8KAI4dR-psIkHF9y2TJHQNjasTl/view?usp=share_link",
   portfolio_repository: "https://github.com/mzukisimakaluza-dev/masterPortfolio",
@@ -48,7 +48,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/mzukisimakaluza/",
+    link: "https://www.linkedin.com/in/mzukisi-makaluza-310951162/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -63,34 +63,30 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      title: "Software Development, Automation & Testing/Debugging",
+      // fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Development of Web-based software",
+        "⚡ Development of Linux-based microservices with C/C++",
+        "⚡ Network Analysis with Wireshark",
+        "⚡ Automating server functionalities and setups with Bash",
+        "⚡ Reading Linux Server logs and traces",
+        "⚡ API Test Automation with Python Scripts",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Wireshark",
+          fontAwesomeClassname: "simple-icons:wireshark",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Bash",
+          fontAwesomeClassname: "simple-icons:linux",
           style: {
             backgroundColor: "transparent",
+            color: "#000000",
           },
         },
         {
@@ -107,9 +103,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive website front end using VueJS",
+        "⚡ Creating application backend in Node, Express & Mongo or Elasticsearch",
+        "⚡ Linux-based microservices with C/C++"
       ],
       softwareSkills: [
         {
@@ -142,8 +138,8 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "VueJS",
+          fontAwesomeClassname: "simple-icons:vuedotjs",
           style: {
             color: "#61DAFB",
           },
@@ -170,15 +166,15 @@ const skills = {
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "C",
+          fontAwesomeClassname: "simple-icons:c",
           style: {
             color: "#663399",
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "C++",
+          fontAwesomeClassname: "simple-icons:cplusplus",
           style: {
             color: "#02569B",
           },
@@ -186,55 +182,20 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
+      title: "Virtual Servers/Environments",
+      // fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Experience working with Docker networks and Containers",
+        "⚡ Python Virtual Environments",
+        "⚡ Familiar with Linux's virtual network interfaces",
+        "⚡ Virtual development inside docker containers ( Keeping the host clean )",
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "Python pip3",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
             color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
           },
         },
         {
@@ -242,52 +203,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:docker",
           style: {
             color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
           },
         },
       ],
@@ -299,52 +214,20 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com/layman_brother/",
-    },
-    {
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/mzukisimakaluza",
     },
     {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
+      siteName: "CodeWars",
+      iconifyClassname: "simple-icons:codewars",
       style: {
         color: "#323754",
       },
       profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
     },
   ],
 };
