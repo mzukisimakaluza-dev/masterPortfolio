@@ -47,6 +47,12 @@ const socialMediaLinks = [
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
+    name: "Github-2",
+    link: "https://github.com/Smurphy7440",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#5c2a22", // Reference https://simpleicons.org/?q=github
+  },
+  {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/mzukisi-makaluza-310951162/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
@@ -419,23 +425,18 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "ProfileShot.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on Discord, Github and LinkedIn. You can message me, I will reply within 24 hours. I can help you with Testing, Automation, VueJS, TCP/IP Network Analysis and Opensource Development.",
   },
   blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
     subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+      "Kraaifontein, Cape Town, South Africa, 7570",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://www.google.com/maps/place/Kraaifontein,+Cape+Town/@-33.8515668,18.713941,13z/data=!3m1!4b1!4m5!3m4!1s0x1dcc53fc0609e907:0x15ea5ff10f6470d3!8m2!3d-33.8472657!4d18.7174437",
   },
   phoneSection: {
     title: "",

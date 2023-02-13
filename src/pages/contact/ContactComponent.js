@@ -28,6 +28,9 @@ class Contact extends Component {
                 <img
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
                   alt=""
+                  width="300"
+                  height="300"
+                  style={{ borderRadius: 150, border: 'none', boxShadow: '10 10 100px black inset' }}
                 />
               </div>
               <div className="contact-heading-text-div">
@@ -67,14 +70,6 @@ class Contact extends Component {
                 >
                   {blogSection["subtitle"]}
                 </p>
-                <div className="blogsite-btn-div">
-                  <Button
-                    text="Visit My Blogsite"
-                    newTab={true}
-                    href={blogSection.link}
-                    theme={theme}
-                  />
-                </div>
               </div>
               <div className="blog-heading-img-div">
                 {/* <img
