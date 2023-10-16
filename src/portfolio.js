@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Mzukisi's Portfolio",
   description:
-    "A passionate developer and linux enthusiast. I will read your Dockerfile and docker-compose.yml before README.md.",
+    "A passionate Python, JavaScript and C/C++ software developer and linux enthusiast.",
   og: {
     title: "Mzukisi Makaluza Portfolio",
     type: "website",
@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "MzukisiMakaluza",
   nickname: "Smurphy",
   subTitle:
-    "A passionate developer and linux enthusiast. I will read your Dockerfile and docker-compose.yml before your README.md.",
+    "A passionate Python, JavaScript and C/C++ software developer and linux enthusiast.",
   resumeLink:
-    "https://drive.google.com/file/d/1o5VDU8KAI4dR-psIkHF9y2TJHQNjasTl/view?usp=share_link",
+    "https://drive.google.com/file/d/1Sha7rYmMYAdtHEzfIGXoXtReKQU3nkZr/view?usp=drive_link",
   portfolio_repository: "https://github.com/mzukisimakaluza-dev/masterPortfolio",
   githubProfile: "https://github.com/mzukisimakaluza-dev",
 };
@@ -255,6 +255,24 @@ const competitiveSites = {
   ],
 };
 
+const degrees = {
+  degrees: [
+    {
+      title: "University of Cape Town",
+      subtitle: "BSc Electrical and Computer Engineering",
+      logo_path: "uct_logo.png",
+      alt_name: "UCT",
+      duration: "2017 - 2020",
+      descriptions: [
+        "⚡ Learned about about core Computer Science principles such as Algorithms and Data Structures, Memory management and IoT based development.",
+        "⚡  Learned Calculus I, II and III in the context of Electrical engineering",
+        "⚡ Received a Dean's List award in 2017 for exceptional perfomance as can be seen from my transcript.",
+      ],
+      website_link: "https://uct.ac.za/",
+    }
+  ],
+};
+
 const certifications = {
   certifications: [
     {
@@ -290,14 +308,14 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Technical Tester",
+          title: "Developer, Technical Tester",
           company: "Uman Technologies (TSN Systems GmbH)",
           company_url: "https://tsn.systems/",
           logo_path: "TSN-Logo-RGB.png",
           duration: "April 2022 - Present",
           location: "Century City, Cape Town, South Africa",
           description:
-            "I am working in the automotive industry to test and diagnose time-sensitive systems, helping clients measure the accurancy of their systems. Common protocols are PTP (IEEE802.1AS) for syncronisation, IEEE1722 and IEEE1733.",
+            "Collaborated with engineers to facilitate functional release testing of firmware. Assisted in the development of features working mainly in C++, Python and bash. Analysing network packets with wireshark and comparing on-wire captures with specifications. Also, built and maintained a C/C++ implementation of XCP, a protocol used for instrumentation and calibration of automotive ECUs.",
           color: "#0879bf",
         },
         {
@@ -365,7 +383,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects include writing scalable web based applications using JavaScript (VueJS and node), Python. Other projects involve writing C/C++ code for embedded Linux systems like the BeagleBone Black and Raspberry Pi",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -434,13 +452,13 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "Kraaifontein, Cape Town, South Africa, 7570",
+      "8 Atlantis Close, Parow North, Cape Town, South Africa, 7500",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://www.google.com/maps/place/Kraaifontein,+Cape+Town/@-33.8515668,18.713941,13z/data=!3m1!4b1!4m5!3m4!1s0x1dcc53fc0609e907:0x15ea5ff10f6470d3!8m2!3d-33.8472657!4d18.7174437",
+    location_map_link: "https://maps.app.goo.gl/9QLWKWfiR7btdxoSA",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Personal number",
+    subtitle: "+27 65 305 0930",
   },
 };
 
@@ -448,6 +466,7 @@ export {
   settings,
   seo,
   greeting,
+  degrees,
   socialMediaLinks,
   skills,
   competitiveSites,
